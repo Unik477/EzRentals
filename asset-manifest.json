@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/EzRentals/static/css/main.c07de54c.css",
-    "main.js": "/EzRentals/static/js/main.b7abccea.js",
-    "index.html": "/EzRentals/index.html",
-    "main.c07de54c.css.map": "/EzRentals/static/css/main.c07de54c.css.map",
-    "main.b7abccea.js.map": "/EzRentals/static/js/main.b7abccea.js.map"
+    "main.css": "/EzRentals/tree/main/ezrental-2/static/css/main.c07de54c.css",
+    "main.js": "/EzRentals/tree/main/ezrental-2/static/js/main.bf1aeff7.js",
+    "index.html": "/EzRentals/tree/main/ezrental-2/index.html",
+    "main.c07de54c.css.map": "/EzRentals/tree/main/ezrental-2/static/css/main.c07de54c.css.map",
+    "main.bf1aeff7.js.map": "/EzRentals/tree/main/ezrental-2/static/js/main.bf1aeff7.js.map"
   },
   "entrypoints": [
     "static/css/main.c07de54c.css",
-    "static/js/main.b7abccea.js"
+    "static/js/main.bf1aeff7.js"
   ]
 }
