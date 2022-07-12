@@ -1,0 +1,366 @@
+body {
+  background-color: #3e3e3e;
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+}
+.custom-color {
+  color: white;
+}
+
+/* navbar*/
+.signed {
+  margin-top: 8px;
+  color: #a6a39b;
+}
+
+
+.avatar {
+  width: 40px;
+  margin-top: -3px;
+}
+.dropitems {
+  width: 20px;
+  padding: 3px;
+  margin: auto;
+}
+
+.navitems:hover {
+  color: aqua;
+}
+
+/* Home */
+
+/* .os {
+  padding: 0px 12px;
+  margin-left: 218px;
+  width: auto;
+}
+.mb {
+  padding: 0px 12px;
+  margin-left: 25px;
+  width: auto;
+} */
+
+#home {
+ 
+  border-radius: 30px;
+  margin: 3% 5%;
+  height: 55vw;
+  width: 90vw;
+  background-color: white;
+}
+.homeimg {
+  width: 50vw;
+  height: 50vw;
+}
+
+.homeheadings > h1 {
+  text-align: center;
+  font-size: 3vw;
+  font-family: "Cinzel", serif;
+  padding-top: 25%;
+  padding-left: 20%;
+  color: black;
+}
+.homeheadings > h3 {
+  text-align: center;
+  font-family: "Cinzel", serif;
+  text-align: center;
+  padding-top: 2%;
+  color: black;
+  font-size: 2vw;
+  padding-left: 20%;
+}
+
+.homeheadings > hr {
+  margin-left: 40%;
+  width: 40%;
+  height: 3px;
+}
+
+.homebutton {
+  display: inline-block;
+  font-size: 1.5vw;
+}
+
+.custom-btn {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 0 0;
+  padding-top: 4%;
+}
+
+.homecard {
+  background-color: #212529;
+  height: 12vw;
+  width: 18vw;
+  color: white;
+  border-radius: 10px;
+  margin-top: 0;
+  text-align: center;
+  padding: 2% 2%;
+}
+.homecard > h2 {
+  font-size: 1.8vw;
+}
+.homecard > img {
+  width: 10vw;
+  height: 7vw;
+}
+.homecardrow {
+  padding-left: 7%;
+}
+/* End Home */
+
+/* Vehicles */
+#vehicles {
+  margin: 1vw 1vw;
+  margin-top: 11vw;
+  text-align: center;
+  color: rgb(230, 227, 227);
+}
+
+#vehicles > h1 {
+  font-size: 5vw;
+  font-weight: bolder;
+}
+
+#vehicles > p {
+  font-size: 1.6vw;
+  font-weight: bolder;
+}
+#vehicles > h5 {
+  font-size: 2vw;
+  font-weight: bolder;
+}
+
+.vehicles-btn {
+  margin-top: 15px;
+  text-align: center;
+  border-radius: 2.1vw;
+  height: 3vw;
+  width: 8vw;
+  font-size: 1.4vw;
+  padding: 5px 0;
+ 
+  
+}
+.vehicles-btn:hover{
+  /* background-color: rgb(236, 169, 82); */
+  box-shadow:
+  7px 6px 28px 1px rgb(30, 135, 227);
+transform: translateY(4px);
+ 
+}
+
+.carCardOne:hover{
+  box-shadow:
+  7px 6px 28px 1px rgb(24, 145, 252);
+transform: translateY(4px);
+background-color: rgb(0, 40, 67);
+cursor: pointer;
+
+}
+.carCardTwo:hover{
+  box-shadow:
+  7px 6px 28px 1px rgb(24, 145, 252);
+transform: translateY(4px);
+background-color: rgb(0, 40, 67);
+cursor: pointer;
+
+}
+
+.vehicles-row {
+  padding: 1vw 22vw;
+}
+.Vehiclecardone {
+  text-align: center;
+  padding: 1vw 7vw;
+  width: 99%;
+}
+.carCardOne {
+  border-radius: 2vw;
+  width: 25vw;
+  height: 15vw;
+}
+.Vehiclecardtwo {
+  text-align: center;
+  padding: 0 13%;
+  width: 99%;
+}
+.carCardTwo {
+  border-radius: 2vw;
+  width: 16vw;
+  height: 10vw;
+}
+.carCardTwo:active{
+  border: 2px solid #0d2f6e;
+}
+.showmorebutton {
+  text-align: center;
+}
+#showmore {
+  font-size: 1.7vw;
+  margin: 4vw 3vw;
+  width: 20%;
+  border-radius: 4vw;
+}
+
+.carBtn{
+  background-color: #21252900;
+  border: 0px;
+}
+
+.carBtnSelect{
+  border: 5px solid greenyellow;
+}
+
+
+
+
+
+/* End Vehicles */
+
+/* Key Features */
+
+#keyfeatures {
+  text-align: left;
+  padding: 1vw 9vw;
+}
+#keyfeatures > h3 {
+  font-size: 2.3vw;
+}
+#keyfeatures > h1 {
+  font-size: 5vw;
+  font-weight: bolder;
+  margin-top: 2vw;
+}
+#keyfeatures > h2 {
+  font-size: 3vw;
+  width: 70%;
+  line-height: 1.2;
+  margin-top: 1vw;
+}
+
+.featurecard {
+  margin-top: 5%;
+  width: 14.6vw;
+  height: 18.3vw;
+  border: 2px solid rgb(201, 198, 198);
+  border-radius: 10%;
+  text-align: left;
+}
+.featureimg {
+  width: 9.5vw;
+  height: 7.3vw;
+  margin: 1vw 1vw;
+}
+
+.featureh4 {
+  width: 13vw;
+  margin: 1vw 0;
+  font-size: 1.5vw;
+}
+/* End Key Features */
+ 
+/* Offers */
+.offerscard {
+  margin-top: 5%;
+  width: 14.6vw;
+  height: 18.3vw;
+  border: 2px solid rgb(201, 198, 198);
+  border-radius: 10%;
+  text-align: left;
+}
+.offerbody{
+  color: #212529;
+}
+/* Footer */
+
+#Footer {
+  background-image: url("./images/footer.png");
+  background-repeat: no-repeat;
+  background-size: 100% 46vw;
+  width: 100%;
+  height: 46vw;
+  margin-top: 2vw;
+  color: rgb(223, 217, 217);
+  font-weight: normal;
+}
+
+#Footer > hr {
+  height: 2px;
+}
+
+#Footer > .row {
+  padding: 2vw 10vw;
+  margin-right: 0;
+  margin-left: 0;
+}
+.footerh2 {
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 2vw;
+  padding: 1% 7%;
+  width: 13vw;
+  font-size: 1.8vw;
+}
+.footerh4 {
+  font-size: 1.6vw;
+}
+
+.tophr {
+  width: 16vw;
+}
+.bottomhr {
+  width: 10vw;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.icon-margin {
+  margin-top: 1vw;
+  margin-left: 9vw;
+}
+.footericons {
+  width: 3.2vw;
+  height: 3.2vw;
+}
+
+.bootomcontentoffooter {
+  margin-top: 11.2vw;
+}
+.footercard > h4,
+.footercard > h2 {
+  color: rgb(255, 255, 255);
+  font-size: 2.4vw;
+}
+
+.footercard > h5 {
+  width: 16vw;
+  font-size: 1.5vw;
+}
+
+/* End Footer */
+
+/* About us */
+
+.About {
+  font-family: "Ubuntu", sans-serif;
+  padding: 0 4%;
+}
+
+.Aboutptag {
+  width: 90%;
+  color: rgb(216, 218, 219);
+}
+
+/*End About us */
+
+/* Contact us */
+
+/* Our Services */
+#ourservices {
+  text-align: left;
+  padding: 3% 9%;
+}
