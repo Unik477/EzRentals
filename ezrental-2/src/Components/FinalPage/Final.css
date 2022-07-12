@@ -1,0 +1,24 @@
+p.lead{
+    display: block;
+   text-align: center;
+   margin-left:auto
+}
+main {
+    display: block;
+    background-color: rgb(43, 49, 54);
+    padding: 20px;
+}
+
+.clean{
+    border: 2px solid rgb(4, 253, 162);
+    background-color: rgba(4, 254, 183, 0.403);
+}
+h2.success {
+    color: rgb(0 0 0);
+    background-color: rgb(61 255 37 / 82%);
+}
+.butt {
+   
+    width: 400px;
+}
+
